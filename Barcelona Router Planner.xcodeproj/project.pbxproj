@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82ABA86D17FEB599003704A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ABA86C17FEB599003704A9 /* Foundation.framework */; };
+		82ABA86F17FEB599003704A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ABA86E17FEB599003704A9 /* CoreGraphics.framework */; };
+		82ABA87117FEB599003704A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ABA87017FEB599003704A9 /* UIKit.framework */; };
+		82ABA87717FEB599003704A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82ABA87517FEB599003704A9 /* InfoPlist.strings */; };
+		82ABA87917FEB599003704A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ABA87817FEB599003704A9 /* main.m */; };
+		82ABA87D17FEB599003704A9 /* BRPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ABA87C17FEB599003704A9 /* BRPAppDelegate.m */; };
+		82ABA88017FEB599003704A9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82ABA87E17FEB599003704A9 /* Main_iPhone.storyboard */; };
+		82ABA88317FEB599003704A9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82ABA88117FEB599003704A9 /* Main_iPad.storyboard */; };
+		82ABA88617FEB599003704A9 /* BRPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ABA88517FEB599003704A9 /* BRPViewController.m */; };
+		82ABA88817FEB599003704A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82ABA88717FEB599003704A9 /* Images.xcassets */; };
+		82ABA88F17FEB599003704A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ABA88E17FEB599003704A9 /* XCTest.framework */; };
+		82ABA89017FEB599003704A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ABA86C17FEB599003704A9 /* Foundation.framework */; };
+		82ABA89117FEB599003704A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ABA87017FEB599003704A9 /* UIKit.framework */; };
+		82ABA89917FEB599003704A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82ABA89717FEB599003704A9 /* InfoPlist.strings */; };
+		82ABA89B17FEB599003704A9 /* Barcelona_Router_PlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ABA89A17FEB599003704A9 /* Barcelona_Router_PlannerTests.m */; };
+		82ABA8A917FEB75F003704A9 /* BRPBoardingCards.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ABA8A817FEB75F003704A9 /* BRPBoardingCards.m */; };
+		82ABA8AC17FEBD7E003704A9 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ABA8AB17FEBD7E003704A9 /* Utils.m */; };
+		82C45BFD17FEC047006C9B7C /* BJPbanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C45BFC17FEC047006C9B7C /* BJPbanner.png */; };
+		82C45C07180016A3006C9B7C /* bgbarc.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C45C06180016A3006C9B7C /* bgbarc.png */; };
+		82C45C09180018EE006C9B7C /* barcelonalogo120.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C45C08180018EE006C9B7C /* barcelonalogo120.png */; };
+		82C45C0C180018F5006C9B7C /* barcelonalogo80.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C45C0A180018F5006C9B7C /* barcelonalogo80.png */; };
+		82C45C0D180018F5006C9B7C /* barcelonalogo152.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C45C0B180018F5006C9B7C /* barcelonalogo152.png */; };
+		82C45C0F18001910006C9B7C /* barcelonalogo76.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C45C0E18001910006C9B7C /* barcelonalogo76.png */; };
+		82C45C1518001A79006C9B7C /* Main_iPhone5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C45C1318001A79006C9B7C /* Main_iPhone5.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82ABA89217FEB599003704A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82ABA86117FEB599003704A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82ABA86817FEB599003704A9;
+			remoteInfo = "Barcelona Router Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82ABA86917FEB599003704A9 /* Barcelona Router Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barcelona Router Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82ABA86C17FEB599003704A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82ABA86E17FEB599003704A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82ABA87017FEB599003704A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82ABA87417FEB599003704A9 /* Barcelona Router Planner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Barcelona Router Planner-Info.plist"; sourceTree = "<group>"; };
+		82ABA87617FEB599003704A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82ABA87817FEB599003704A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82ABA87A17FEB599003704A9 /* Barcelona Router Planner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Barcelona Router Planner-Prefix.pch"; sourceTree = "<group>"; };
+		82ABA87B17FEB599003704A9 /* BRPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPAppDelegate.h; sourceTree = "<group>"; };
+		82ABA87C17FEB599003704A9 /* BRPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPAppDelegate.m; sourceTree = "<group>"; };
+		82ABA87F17FEB599003704A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		82ABA88217FEB599003704A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		82ABA88417FEB599003704A9 /* BRPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPViewController.h; sourceTree = "<group>"; };
+		82ABA88517FEB599003704A9 /* BRPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRPViewController.m; sourceTree = "<group>"; };
+		82ABA88717FEB599003704A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82ABA88D17FEB599003704A9 /* Barcelona Router PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Barcelona Router PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82ABA88E17FEB599003704A9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		82ABA89617FEB599003704A9 /* Barcelona Router PlannerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Barcelona Router PlannerTests-Info.plist"; sourceTree = "<group>"; };
+		82ABA89817FEB599003704A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82ABA89A17FEB599003704A9 /* Barcelona_Router_PlannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Barcelona_Router_PlannerTests.m; sourceTree = "<group>"; };
+		82ABA8A717FEB75F003704A9 /* BRPBoardingCards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPBoardingCards.h; sourceTree = "<group>"; };
+		82ABA8A817FEB75F003704A9 /* BRPBoardingCards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRPBoardingCards.m; sourceTree = "<group>"; };
+		82ABA8AA17FEBD7E003704A9 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		82ABA8AB17FEBD7E003704A9 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		82C45BFC17FEC047006C9B7C /* BJPbanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BJPbanner.png; sourceTree = "<group>"; };
+		82C45C06180016A3006C9B7C /* bgbarc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgbarc.png; sourceTree = "<group>"; };
+		82C45C08180018EE006C9B7C /* barcelonalogo120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcelonalogo120.png; sourceTree = "<group>"; };
+		82C45C0A180018F5006C9B7C /* barcelonalogo80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcelonalogo80.png; sourceTree = "<group>"; };
+		82C45C0B180018F5006C9B7C /* barcelonalogo152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcelonalogo152.png; sourceTree = "<group>"; };
+		82C45C0E18001910006C9B7C /* barcelonalogo76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcelonalogo76.png; sourceTree = "<group>"; };
+		82C45C1418001A79006C9B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone5.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82ABA86617FEB599003704A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ABA86F17FEB599003704A9 /* CoreGraphics.framework in Frameworks */,
+				82ABA87117FEB599003704A9 /* UIKit.framework in Frameworks */,
+				82ABA86D17FEB599003704A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82ABA88A17FEB599003704A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ABA88F17FEB599003704A9 /* XCTest.framework in Frameworks */,
+				82ABA89117FEB599003704A9 /* UIKit.framework in Frameworks */,
+				82ABA89017FEB599003704A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82ABA86017FEB599003704A9 = {
+			isa = PBXGroup;
+			children = (
+				82ABA87217FEB599003704A9 /* Barcelona Router Planner */,
+				82ABA89417FEB599003704A9 /* Barcelona Router PlannerTests */,
+				82ABA86B17FEB599003704A9 /* Frameworks */,
+				82ABA86A17FEB599003704A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82ABA86A17FEB599003704A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82ABA86917FEB599003704A9 /* Barcelona Router Planner.app */,
+				82ABA88D17FEB599003704A9 /* Barcelona Router PlannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82ABA86B17FEB599003704A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82ABA86C17FEB599003704A9 /* Foundation.framework */,
+				82ABA86E17FEB599003704A9 /* CoreGraphics.framework */,
+				82ABA87017FEB599003704A9 /* UIKit.framework */,
+				82ABA88E17FEB599003704A9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82ABA87217FEB599003704A9 /* Barcelona Router Planner */ = {
+			isa = PBXGroup;
+			children = (
+				82C45BFB17FEC041006C9B7C /* images */,
+				82ABA8A617FEB5C0003704A9 /* Storyboards */,
+				82ABA8A517FEB5B9003704A9 /* Controllers */,
+				82ABA8A417FEB5AE003704A9 /* Models */,
+				82ABA87B17FEB599003704A9 /* BRPAppDelegate.h */,
+				82ABA87C17FEB599003704A9 /* BRPAppDelegate.m */,
+				82ABA88717FEB599003704A9 /* Images.xcassets */,
+				82ABA87317FEB599003704A9 /* Supporting Files */,
+			);
+			path = "Barcelona Router Planner";
+			sourceTree = "<group>";
+		};
+		82ABA87317FEB599003704A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82ABA87417FEB599003704A9 /* Barcelona Router Planner-Info.plist */,
+				82ABA87517FEB599003704A9 /* InfoPlist.strings */,
+				82ABA87817FEB599003704A9 /* main.m */,
+				82ABA87A17FEB599003704A9 /* Barcelona Router Planner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82ABA89417FEB599003704A9 /* Barcelona Router PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				82ABA89A17FEB599003704A9 /* Barcelona_Router_PlannerTests.m */,
+				82ABA89517FEB599003704A9 /* Supporting Files */,
+			);
+			path = "Barcelona Router PlannerTests";
+			sourceTree = "<group>";
+		};
+		82ABA89517FEB599003704A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82ABA89617FEB599003704A9 /* Barcelona Router PlannerTests-Info.plist */,
+				82ABA89717FEB599003704A9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82ABA8A417FEB5AE003704A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82ABA8AA17FEBD7E003704A9 /* Utils.h */,
+				82ABA8AB17FEBD7E003704A9 /* Utils.m */,
+				82ABA8A717FEB75F003704A9 /* BRPBoardingCards.h */,
+				82ABA8A817FEB75F003704A9 /* BRPBoardingCards.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		82ABA8A517FEB5B9003704A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				82ABA88417FEB599003704A9 /* BRPViewController.h */,
+				82ABA88517FEB599003704A9 /* BRPViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		82ABA8A617FEB5C0003704A9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				82ABA87E17FEB599003704A9 /* Main_iPhone.storyboard */,
+				82C45C1318001A79006C9B7C /* Main_iPhone5.storyboard */,
+				82ABA88117FEB599003704A9 /* Main_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		82C45BFB17FEC041006C9B7C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				82C45C08180018EE006C9B7C /* barcelonalogo120.png */,
+				82C45C0E18001910006C9B7C /* barcelonalogo76.png */,
+				82C45C0A180018F5006C9B7C /* barcelonalogo80.png */,
+				82C45C0B180018F5006C9B7C /* barcelonalogo152.png */,
+				82C45BFC17FEC047006C9B7C /* BJPbanner.png */,
+				82C45C06180016A3006C9B7C /* bgbarc.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82ABA86817FEB599003704A9 /* Barcelona Router Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82ABA89E17FEB599003704A9 /* Build configuration list for PBXNativeTarget "Barcelona Router Planner" */;
+			buildPhases = (
+				82ABA86517FEB599003704A9 /* Sources */,
+				82ABA86617FEB599003704A9 /* Frameworks */,
+				82ABA86717FEB599003704A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Barcelona Router Planner";
+			productName = "Barcelona Router Planner";
+			productReference = 82ABA86917FEB599003704A9 /* Barcelona Router Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82ABA88C17FEB599003704A9 /* Barcelona Router PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82ABA8A117FEB599003704A9 /* Build configuration list for PBXNativeTarget "Barcelona Router PlannerTests" */;
+			buildPhases = (
+				82ABA88917FEB599003704A9 /* Sources */,
+				82ABA88A17FEB599003704A9 /* Frameworks */,
+				82ABA88B17FEB599003704A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82ABA89317FEB599003704A9 /* PBXTargetDependency */,
+			);
+			name = "Barcelona Router PlannerTests";
+			productName = "Barcelona Router PlannerTests";
+			productReference = 82ABA88D17FEB599003704A9 /* Barcelona Router PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82ABA86117FEB599003704A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BRP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Jaboston;
+				TargetAttributes = {
+					82ABA88C17FEB599003704A9 = {
+						TestTargetID = 82ABA86817FEB599003704A9;
+					};
+				};
+			};
+			buildConfigurationList = 82ABA86417FEB599003704A9 /* Build configuration list for PBXProject "Barcelona Router Planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82ABA86017FEB599003704A9;
+			productRefGroup = 82ABA86A17FEB599003704A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82ABA86817FEB599003704A9 /* Barcelona Router Planner */,
+				82ABA88C17FEB599003704A9 /* Barcelona Router PlannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82ABA86717FEB599003704A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ABA88317FEB599003704A9 /* Main_iPad.storyboard in Resources */,
+				82ABA88817FEB599003704A9 /* Images.xcassets in Resources */,
+				82C45C07180016A3006C9B7C /* bgbarc.png in Resources */,
+				82ABA88017FEB599003704A9 /* Main_iPhone.storyboard in Resources */,
+				82C45BFD17FEC047006C9B7C /* BJPbanner.png in Resources */,
+				82C45C09180018EE006C9B7C /* barcelonalogo120.png in Resources */,
+				82C45C0C180018F5006C9B7C /* barcelonalogo80.png in Resources */,
+				82C45C0F18001910006C9B7C /* barcelonalogo76.png in Resources */,
+				82C45C1518001A79006C9B7C /* Main_iPhone5.storyboard in Resources */,
+				82C45C0D180018F5006C9B7C /* barcelonalogo152.png in Resources */,
+				82ABA87717FEB599003704A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82ABA88B17FEB599003704A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ABA89917FEB599003704A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82ABA86517FEB599003704A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ABA8A917FEB75F003704A9 /* BRPBoardingCards.m in Sources */,
+				82ABA87917FEB599003704A9 /* main.m in Sources */,
+				82ABA88617FEB599003704A9 /* BRPViewController.m in Sources */,
+				82ABA8AC17FEBD7E003704A9 /* Utils.m in Sources */,
+				82ABA87D17FEB599003704A9 /* BRPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82ABA88917FEB599003704A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ABA89B17FEB599003704A9 /* Barcelona_Router_PlannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82ABA89317FEB599003704A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82ABA86817FEB599003704A9 /* Barcelona Router Planner */;
+			targetProxy = 82ABA89217FEB599003704A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82ABA87517FEB599003704A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82ABA87617FEB599003704A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82ABA87E17FEB599003704A9 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82ABA87F17FEB599003704A9 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		82ABA88117FEB599003704A9 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82ABA88217FEB599003704A9 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		82ABA89717FEB599003704A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82ABA89817FEB599003704A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82C45C1318001A79006C9B7C /* Main_iPhone5.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82C45C1418001A79006C9B7C /* Base */,
+			);
+			name = Main_iPhone5.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82ABA89C17FEB599003704A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82ABA89D17FEB599003704A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82ABA89F17FEB599003704A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barcelona Router Planner/Barcelona Router Planner-Prefix.pch";
+				INFOPLIST_FILE = "Barcelona Router Planner/Barcelona Router Planner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82ABA8A017FEB599003704A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barcelona Router Planner/Barcelona Router Planner-Prefix.pch";
+				INFOPLIST_FILE = "Barcelona Router Planner/Barcelona Router Planner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82ABA8A217FEB599003704A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Barcelona Router Planner.app/Barcelona Router Planner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barcelona Router Planner/Barcelona Router Planner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Barcelona Router PlannerTests/Barcelona Router PlannerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		82ABA8A317FEB599003704A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Barcelona Router Planner.app/Barcelona Router Planner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barcelona Router Planner/Barcelona Router Planner-Prefix.pch";
+				INFOPLIST_FILE = "Barcelona Router PlannerTests/Barcelona Router PlannerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82ABA86417FEB599003704A9 /* Build configuration list for PBXProject "Barcelona Router Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82ABA89C17FEB599003704A9 /* Debug */,
+				82ABA89D17FEB599003704A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82ABA89E17FEB599003704A9 /* Build configuration list for PBXNativeTarget "Barcelona Router Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82ABA89F17FEB599003704A9 /* Debug */,
+				82ABA8A017FEB599003704A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82ABA8A117FEB599003704A9 /* Build configuration list for PBXNativeTarget "Barcelona Router PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82ABA8A217FEB599003704A9 /* Debug */,
+				82ABA8A317FEB599003704A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82ABA86117FEB599003704A9 /* Project object */;
+}
